@@ -22,6 +22,7 @@ def play(songs)
   index = 0
   array = []
   while index < songs.length
-
+    songs.each_with_index << array
   end
+  return array
 end
