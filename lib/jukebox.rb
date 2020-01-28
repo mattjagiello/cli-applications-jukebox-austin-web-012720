@@ -18,6 +18,10 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
+def play(songs)
+  index = 0
+  array = []
+  while index < songs.length
 
+  end
 end
